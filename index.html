@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EC Coiffure - Génolhac</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>EC Coiffure</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#hours">Horaires</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Votre coiffure, notre passion à Génolhac</h2>
+            <a href="#contact" class="cta-btn">Prendre Rendez-vous</a>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Coupe Femme</h3>
+                    <p>Stylisation moderne et classique</p>
+                </div>
+                <div class="service-item">
+                    <h3>Coupe Homme</h3>
+                    <p>Coupe personnalisée selon vos goûts</p>
+                </div>
+                <div class="service-item">
+                    <h3>Coloration</h3>
+                    <p>Colorations naturelles et sophistiquées</p>
+                </div>
+                <div class="service-item">
+                    <h3>Coiffures de mariage</h3>
+                    <p>Réalisez vos rêves pour ce jour spécial</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hours" class="hours-section">
+        <div class="container">
+            <h2>Horaires d'ouverture</h2>
+            <ul>
+                <li><span>Lundi :</span> Fermé</li>
+                <li><span>Mardi :</span> 08h30 - 12h00, 13h30 - 18h30</li>
+                <li><span>Mercredi :</span> Fermé</li>
+                <li><span>Jeudi :</span> 08h30 - 12h00, 13h30 - 18h30</li>
+                <li><span>Vendredi :</span> 08h30 - 12h00, 13h30 - 18h30</li>
+                <li><span>Samedi :</span> 08h30 - 16h00</li>
+                <li><span>Dimanche :</span> Fermé</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EC Coiffure. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
